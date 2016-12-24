@@ -1,0 +1,16 @@
+  .day_container {
+        justify-content: center;
+        padding: 20px 10%;
+    }
+
+    .stories_container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    @media screen and(max-width: 1550px) {
+        body {
+            margin: auto;
+            background-color: aqua;
+        }
+    }

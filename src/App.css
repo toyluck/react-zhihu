@@ -1,0 +1,155 @@
+body {
+color: #222;
+background: #f4f4f4;
+font: 400 14px CoreSans, Arial,sans-serif;
+} a
+{
+color: #222;
+} a
+:hover {
+text-decoration: underline;
+}
+ul, li {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+input {
+padding: 10px;
+border-radius: 5px;
+outline: none;
+margin-right: 10px;
+border: 1px solid #dddddd;
+}
+button {
+padding: 10px;
+border-radius: 5px;
+border: 1px solid #dddddd;
+background: transparent;
+color: #808080;
+cursor: pointer;
+}
+button:hover {
+color: #222;
+} *
+:focus {
+outline: none;
+}
+.page {
+margin: 20px;
+}
+.interactions {
+text-align: center;
+}
+.table {
+margin: 20px 0;
+}
+.table-header {
+display: flex;
+line-height: 24px;
+font-size: 16px;
+padding: 0 10px;
+justify-content: space-between;
+text-transform: uppercase;
+}
+.table_empty {
+margin: 200px;
+text-align: center;
+font-size: 16px;
+}
+.table_row {
+display: flex;
+line-height: 24px;
+white-space: nowrap;
+margin: 10px 0;
+padding: 10px;
+background: #ffffff;
+border: 1px solid #e3e3e3;
+}
+.table_header > span {
+overflow: hidden;
+text-overflow: ellipsis;
+padding: 0 5px;
+}
+.table_row > span {
+overflow: hidden;
+text-overflow: ellipsis;
+padding: 0 5px;
+}
+.button_inline {
+border-width: 0;
+background: transparent;
+color: inherit;
+text-align: inherit;
+-webkit-font-smoothing: inherit;
+padding: 0;
+font-size: inherit;
+cursor: pointer;
+}
+.button_active {
+border-radius: 0;
+border-bottom: 1px solid #38BB6C;
+}
+
+.width40{
+    width: 40%;
+}
+
+
+.width30{
+    width: 30%;
+}
+
+
+.width15{
+    width: 15%;
+}
+
+.table_title{
+ position: relative;
+  content:''; 
+    right: 5px;
+    top:50%;
+    border: 5px solid transparent;
+    border-bottom:5px solid brown; 
+}
+/*.table_title::before{
+    content:'';
+    position: absolute;
+    right: 5px;
+    top:50%;
+    border: 10px solid transparent;
+    border-bottom: 2px solid brown; 
+}*/
+.selected{ 
+    content:''; 
+    right: 5px;
+    top:50%;
+    border: 5px solid transparent;
+    border-top: 5px solid brown; 
+}
+
+.selected_base{
+    content:'';
+    position: absolute;
+    right: 5px;
+    top:50%;
+    border: 5px solid transparent;
+
+}
+/*.selected::after{
+   content:'';
+    position: absolute;
+    right: 5px;
+    top:50%;
+    border: 5px solid transparent;
+    border-top: 2px solid brown; 
+}*/
+/*.selected::before{
+    content:'';
+    position: absolute;
+    right: 5px;
+    top:50%;
+    border: 5px solid transparent;
+    border-bottom: 2px solid brown; 
+}*/
